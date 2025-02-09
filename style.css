@@ -62,15 +62,12 @@ body {
 .testiomonials__article:nth-child(5) {
   grid-area: last;
 }
-.attribution {
-  font-size: 12px;
-  text-align: center;
-}
 /* Testimonials article */
 .testiomonials__article {
   background-color: var(--data-color, var(--white));
   border-radius: 0.5rem;
   padding: 1.625rem 2rem 2rem 2rem;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.4);
 }
 .testimonials__article-icon {
   position: absolute;
