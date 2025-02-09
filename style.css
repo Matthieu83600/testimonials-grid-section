@@ -34,6 +34,16 @@ body {
   padding-inline: 10.3125rem;
   padding-block: 10.25rem;
 }
+/* H1 */
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  position: absolute;
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+}
 /* Testimonials grid */
 .testimonials__container {
   display: grid;
